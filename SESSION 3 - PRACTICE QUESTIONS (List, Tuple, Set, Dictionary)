@@ -1,0 +1,349 @@
+SESSION 3 - PRACTICE QUESTIONS (List, Tuple, Set, Dictionary)
+
+PART A: BASIC LEVEL QUESTIONS (Theory + Simple Coding)
+LIST Questions
+Q1. Create a list of 5 fruits and perform the following:
+
+Add "mango" at the end
+Insert "orange" at index 2
+Remove "banana"
+Print the length of the list
+
+Q2. Write a program to find the sum and average of all numbers in a list.
+pythonnumbers = [10, 20, 30, 40, 50]
+Q3. Create a list of numbers and sort it in descending order without using sort() method.
+Q4. Write a program to count how many times the number 5 appears in a list.
+pythondata = [1, 5, 3, 5, 7, 5, 9]
+Q5. Reverse a list without using the reverse() method.
+
+TUPLE Questions
+Q6. Create a tuple with 6 elements and print the first, last, and middle elements.
+Q7. Write a program to find the maximum and minimum values in a tuple.
+pythonnumbers = (45, 23, 67, 12, 89, 34)
+Q8. Can you modify a tuple? If yes, how? If no, why?
+Q9. Create a single element tuple and verify its type. What happens if you forget the comma?
+Q10. Write a program to convert a list into a tuple and vice versa.
+
+SET Questions
+Q11. Create a set with duplicate values and observe what happens.
+pythonnumbers = {1, 2, 3, 2, 4, 3, 5}
+Q12. Write a program to add 3 new elements to a set using a single method.
+Q13. Create two sets and find:
+
+Union
+Intersection
+Difference
+
+Q14. Remove duplicates from the following list using set:
+pythonnumbers = [1, 2, 3, 2, 4, 3, 5, 1, 6]
+Q15. Write a program to check if two sets have any common elements.
+
+DICTIONARY Questions
+Q16. Create a dictionary to store information about a book (title, author, price, year).
+Q17. Write a program to get a value from a dictionary. If the key doesn't exist, return "Not Found".
+Q18. Update the price of a book in the dictionary and add a new key "publisher".
+Q19. Write a program to print all keys and all values separately from a dictionary.
+Q20. Create a dictionary and check if a key "name" exists in it.
+
+PART B: SCENARIO-BASED QUESTIONS
+Scenario 1: Student Management System
+Q21. Create a list of 5 student names. Write a program to:
+
+Add a new student at the beginning
+Remove a student by name
+Check if "Rahul" is in the list
+Print total number of students
+
+Q22. Create a dictionary to store student names as keys and their marks as values:
+pythonstudents = {"Raj": 85, "Priya": 92, "Amit": 78}
+Write a program to:
+
+Find the student with highest marks
+Add a new student "Sneha" with marks 88
+Update Raj's marks to 90
+Calculate average marks of all students
+
+
+Scenario 2: E-Commerce Shopping Cart
+Q23. Create a shopping cart using a list. Write a program to:
+pythoncart = ["Laptop", "Mouse", "Keyboard"]
+
+Add "Monitor" to the cart
+Remove "Mouse" from the cart
+Check if "Laptop" is in the cart
+Display total items in cart
+
+Q24. Create a dictionary for product prices:
+pythonproducts = {"Laptop": 45000, "Mouse": 500, "Keyboard": 1500}
+Write a program to:
+Calculate total cart value
+Apply 10% discount if total > 40000
+Add a new product "Headphones" with price 2000
+
+
+Scenario 3: Movie Theater
+Q25. A theater has seats numbered 1 to 10. Create a set of booked seats:
+pythonbooked_seats = {2, 5, 7, 9}
+Write a program to:
+
+Book seat number 3
+Check if seat 5 is available
+Find all available seats (1-10)
+Cancel booking for seat 7
+
+Q26. Create a dictionary to store movie ratings:
+pythonmovies = {"Inception": 9.0, "Interstellar": 8.6, "Tenet": 7.5}
+Write a program to:
+
+Add a new movie "Dunkirk" with rating 8.0
+Find movie with highest rating
+List all movies with rating above 8.0
+
+
+Scenario 4: Library System
+Q27. Create a tuple of book categories (non-changeable):
+pythoncategories = ("Fiction", "Science", "History", "Technology")
+Write a program to:
+
+Check if "Science" exists
+Find the index of "History"
+Count total categories
+
+Q28. Create a dictionary to track book availability:
+pythonlibrary = {
+    "Python Basics": 5,
+    "Data Science": 3,
+    "Web Development": 0,
+    "AI Fundamentals": 7
+}
+Write a program to:
+
+Issue one copy of "Python Basics" (decrease count by 1)
+Check which books are out of stock (count = 0)
+Add a new book "Machine Learning" with 4 copies
+
+
+Scenario 5: Employee Database
+Q29. Store employee IDs in a set (to ensure uniqueness):
+pythonemployees = {101, 102, 103, 104}
+Write a program to:
+
+Add new employee ID 105
+Try adding duplicate ID 102 and observe
+Remove employee ID 103
+Find total employees
+
+Q30. Create a nested dictionary for employee details:
+pythonemployees = {
+    "E001": {"name": "Rajesh", "salary": 50000, "dept": "IT"},
+    "E002": {"name": "Priya", "salary": 60000, "dept": "HR"}
+}
+Write a program to:
+
+Print Rajesh's salary
+Add a new employee E003
+Find all employees in IT department
+Give 10% raise to all employees
+
+
+PART C: MINI PROJECTS
+Project 1: Contact Book (Dictionary)
+Create a contact book application with the following features:
+python# Contact book structure
+contacts = {}
+
+# Features to implement:
+# 1. Add new contact (name: phone number)
+# 2. Search contact by name
+# 3. Update phone number
+# 4. Delete contact
+# 5. Display all contacts
+# 6. Count total contacts
+```
+
+**Sample Output:**
+```
+--- Contact Book Menu ---
+1. Add Contact
+2. Search Contact
+3. Update Contact
+4. Delete Contact
+5. Display All
+6. Exit
+
+Enter choice: 1
+Enter name: Rahul
+Enter phone: 9876543210
+Contact added successfully!
+
+Project 2: To-Do List Manager (List)
+Create a to-do list application:
+python# To-do list structure
+tasks = []
+
+# Features to implement:
+# 1. Add task
+# 2. View all tasks
+# 3. Mark task as complete (remove from list)
+# 4. Count pending tasks
+# 5. Clear all tasks
+```
+
+**Sample Output:**
+```
+--- To-Do List ---
+1. Add Task
+2. View Tasks
+3. Complete Task
+4. Exit
+
+Current Tasks:
+1. Buy groceries
+2. Complete assignment
+3. Call doctor
+
+Total tasks: 3
+
+Project 3: Unique Visitor Tracker (Set)
+Track unique website visitors:
+python# Visitor tracking
+visitors = set()
+
+# Features to implement:
+# 1. Add visitor (by user ID)
+# 2. Count unique visitors
+# 3. Check if user visited before
+# 4. Find common visitors between two days
+# 5. Find new visitors today
+```
+
+**Sample Output:**
+```
+Day 1 visitors: {101, 102, 103, 104}
+Day 2 visitors: {103, 104, 105, 106}
+
+Common visitors: {103, 104}
+New visitors on Day 2: {105, 106}
+
+Project 4: Student Grade Book (Dictionary + List)
+Complete student management system:
+python# Grade book structure
+gradebook = {
+    "Raj": [85, 90, 88],
+    "Priya": [92, 88, 95],
+    "Amit": [78, 82, 80]
+}
+
+# Features to implement:
+# 1. Add new student with marks
+# 2. Add marks to existing student
+# 3. Calculate average for each student
+# 4. Find student with highest average
+# 5. Display all students and their averages
+# 6. Grade classification (A: >90, B: 80-90, C: 70-80, F: <70)
+```
+
+**Sample Output:**
+```
+--- Grade Book ---
+Student: Raj
+Marks: [85, 90, 88]
+Average: 87.67
+Grade: B
+
+Student: Priya
+Marks: [92, 88, 95]
+Average: 91.67
+Grade: A
+
+Project 5: Restaurant Menu & Orders (All Data Structures)
+Restaurant management system:
+python# Menu (Dictionary)
+menu = {
+    "Pizza": 250,
+    "Burger": 120,
+    "Pasta": 180,
+    "Coffee": 50
+}
+
+# Daily specials (Tuple - unchangeable)
+specials = ("Monday Special", "Tuesday Discount", "Weekend Combo")
+
+# Current orders (List)
+orders = []
+
+# Unique customers today (Set)
+customers = set()
+
+# Features to implement:
+# 1. Display menu with prices
+# 2. Take order (add to orders list)
+# 3. Track customer ID (add to customers set)
+# 4. Calculate bill for an order
+# 5. Display today's special
+# 6. Find most ordered item
+# 7. Total revenue calculation
+```
+
+**Sample Output:**
+```
+--- Restaurant Menu ---
+1. Pizza - ₹250
+2. Burger - ₹120
+3. Pasta - ₹180
+4. Coffee - ₹50
+
+Enter customer ID: C001
+Enter item: Pizza
+Order added!
+
+Today's Special: Monday Special
+
+Total orders: 15
+Unique customers: 8
+Total revenue: ₹3450
+
+Project 6: Quiz Application (Mixed)
+python# Quiz structure
+quiz = {
+    "What is the capital of India?": {
+        "options": ["Mumbai", "Delhi", "Kolkata", "Chennai"],
+        "answer": "Delhi"
+    },
+    "Which data type is immutable?": {
+        "options": ["List", "Dictionary", "Tuple", "Set"],
+        "answer": "Tuple"
+    }
+}
+
+# Track scores (List)
+scores = []
+
+# Track attempted students (Set)
+attempted = set()
+
+# Features to implement:
+# 1. Display questions one by one
+# 2. Take user answers
+# 3. Calculate score
+# 4. Store score in list
+# 5. Track student ID in set
+# 6. Display average score
+# 7. Show pass/fail (passing: 60%)
+
+BONUS CHALLENGES 🔥
+Challenge 1: Write a program to find second largest number in a list without using sort().
+Challenge 2: Create a dictionary from two lists (one for keys, one for values).
+pythonkeys = ["name", "age", "city"]
+values = ["Raj", 25, "Mumbai"]
+Challenge 3: Remove all duplicates from a list while maintaining order.
+pythondata = [1, 2, 3, 2, 4, 3, 5, 1]
+# Output should be: [1, 2, 3, 4, 5]
+Challenge 4: Merge two dictionaries. If same key exists, add their values.
+pythondict1 = {"a": 10, "b": 20}
+dict2 = {"b": 30, "c": 40}
+# Output: {"a": 10, "b": 50, "c": 40}
+Challenge 5: Find common elements between three lists using sets.
+pythonlist1 = [1, 2, 3, 4, 5]
+list2 = [4, 5, 6, 7, 8]
+list3 = [5, 6, 7, 8, 9]
