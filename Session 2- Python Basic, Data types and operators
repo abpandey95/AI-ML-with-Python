@@ -1,0 +1,364 @@
+SECTION A: VARIABLES (10 Questions)
+Basic Questions (1-5)
+Q1. Create three variables: name (your name), age (your age), and city (your city). Print all three with labels.
+Q2. What's wrong with these variable names? Explain why.
+student = "John"
+my-name = "Alice"
+class = "Python"
+student name = "Bob"
+
+Q3. Create variables a = 10, b = 20, c = 30. Swap the values so that a becomes 20, b becomes 30, and c becomes 10. Print the results.
+Q4. Assign the same value 100 to three variables x, y, and z in a single line. Then change only y to 200. Print all three.
+Q5. Create a variable temp = 25. Now change it to "Twenty Five" (string). What happened to the variable type? Use type() to verify.
+Scenario-Based Questions (6-10)
+Q6. You're creating a student database. Create variables for: student ID, name, branch, year of study, and CGPA. Print a formatted student card.
+Q7. Create variables for a product: product_name, original_price, discount_percent. Calculate and store the final_price. Print all details.
+Q8. A user profile needs: username, email, phone number, and account creation year. Create these variables and print them in a nice format using f-strings.
+Q9. You're tracking a game player: player_name, level, health, coins. Print their game status. Then the player collects 50 more coins - update and print again.
+Q10. Create variables for a book: title, author, publication year, price, and availability (True/False). Print a book information card.
+
+SECTION B: DATA TYPES (15 Questions)
+Integer & Float Questions (11-15)
+Q11. Calculate the area of a rectangle with length = 15.5 and width = 10.2. Print the result with 2 decimal places.
+Q12. A student scored 456 marks out of 600. Calculate the percentage. Is it an integer or float? Why?
+Q13. You have Rs. 1000. You buy 3 items costing Rs. 199.99 each. Calculate remaining money. What data type is the result?
+Q14. Convert these to appropriate data types:
+
+"123" to integer
+45 to float
+78.9 to integer
+"3.14159" to float
+
+Q15. Find what happens when you:
+print(5 / 2)
+print(5 // 2)
+print(5.0 // 2)
+Explain the difference.
+String Questions (16-22)
+
+Q16. Create a variable full_name = "Raj Kumar Sharma". Extract and print:
+
+First name
+Last name
+Initials (R.K.S.)
+Length of full name
+
+Q17. Take a sentence: text = "python programming is fun". Convert it to:
+
+All uppercase
+All lowercase
+Title case
+Capitalized
+
+Q18. Create two strings: first = "Hello" and second = "World". Combine them with a space in between. Then repeat the combined string 3 times.
+Q19. Given email = "student@example.com", extract:
+
+The username (before @)
+The domain (after @)
+Hint: Use string indexing and find() method
+
+Q20. Create a string password = "Pass123". Check:
+
+Length of password (is it >= 8?)
+Does it contain "123"?
+Convert to lowercase and check again
+
+Q21. Given sentence = "I love Python programming", print:
+
+5th character
+Last 3 characters
+Characters from index 2 to 7
+Entire string in reverse (use slicing with step -1)
+
+Q22. Create a message template: "Hello {name}, you have {count} new messages." Fill it with name="Alice" and count=5 using f-strings.
+Boolean Questions (23-25)
+Q23. Create boolean variables:
+
+is_weekend = True
+is_raining = False
+has_umbrella = True
+
+Determine: Should you go for a picnic? (weekend AND not raining)
+Q24. A student needs 75% to pass and 90% for distinction. Given marks=85, create boolean variables passed and distinction. Print both.
+Q25. Check and print True/False for:
+pythonbool(0)
+bool(1)
+bool("")
+bool(" ")
+bool("False")
+bool(None)
+```
+Explain the pattern you observe.
+
+---
+
+## SECTION C: OPERATORS (15 Questions)
+
+### Arithmetic Questions (26-30)
+
+**Q26.** Calculate compound interest:
+```
+Principal = 10000
+Rate = 5% per year
+Time = 2 years
+Formula: Amount = P * (1 + R/100)^T
+Calculate and print the final amount and interest earned.
+Q27. A pizza costs Rs. 250. If you order 4 pizzas, you get 15% discount. Calculate:
+
+Cost without discount
+Discount amount
+Final cost
+
+Q28. Given a 3-digit number (e.g., 456), extract and print each digit separately using arithmetic operators (%, //).
+Q29. Convert:
+
+150 minutes to hours and minutes
+3665 seconds to hours, minutes, and seconds
+Use // and % operators.
+
+Q30. A car travels at 60 km/h. Calculate:
+
+Distance in 2.5 hours
+Time needed to travel 450 km
+Speed needed to cover 300 km in 4 hours
+
+Comparison Questions (31-33)
+Q31. Compare two students:
+student1_marks = 85
+student2_marks = 92
+Print who scored higher, if they're equal, and the difference in marks.
+Q32. Check voting eligibility:
+age = 17
+Print whether person can vote (age >= 18). Also check if they're a senior citizen (age >= 60).
+Q33. Compare two products:
+product1_price = 1500
+product1_rating = 4.5
+product2_price = 1200
+product2_rating = 4.2
+Determine which product has better rating AND lower price.
+Logical Operators Questions (34-37)
+Q34. Library access system: A person can enter if they have a membership OR they're a student. They must also have valid ID. Create variables and check access.
+has_membership = False
+is_student = True
+has_id = True
+Q35. College admission criteria:
+
+Marks >= 80 OR
+Marks >= 70 AND sports quota
+Must have passing grade (>= 40)
+
+Given marks=75 and sports_quota=True, check eligibility.
+Q36. Online shopping discount:
+
+10% off if purchase > 1000
+Additional 5% if customer is premium member
+No discount if cart < 500
+
+Calculate final price for: cart_value=1200, is_premium=True
+Q37. Password validation:
+
+Length >= 8
+Contains at least one number
+Not equal to username
+
+Given: username="user123", password="pass1234", check if valid (you can use in operator).
+Assignment Operators Questions (38-40)
+Q38. Start with score = 0. Update it through a game:
+
+Collect coin: +10
+Kill enemy: +50
+Complete level: +100
+Get hit: -20
+Use power-up: *2
+
+Use compound operators (+=, -=, *=). Print score after each action.
+Q39. Bank account simulation:
+balance = 5000
+Perform these operations using compound operators:
+
+Deposit 2000
+Withdraw 1500
+Interest earned (5% of current balance)
+Withdrawal fee (2% of last withdrawal)
+Print balance after each operation.
+
+Q40. Step counter app:
+total_steps = 0
+```
+Update steps throughout the day:
+- Morning walk: 2000 steps
+- Afternoon: 1500 steps
+- Evening: 3000 steps
+- Target was 7000, calculate remaining steps
+
+---
+
+## SECTION D: SCENARIO-BASED PROBLEMS (5 Questions)
+
+**Q41. BMI Calculator**
+Create a program that:
+- Takes weight (kg) and height (meters) as input
+- Calculates BMI = weight / (height²)
+- Determines category:
+  - Underweight: BMI < 18.5
+  - Normal: 18.5 <= BMI < 25
+  - Overweight: 25 <= BMI < 30
+  - Obese: BMI >= 30
+- Prints BMI value and category
+
+**Q42. Electricity Bill Calculator**
+Calculate electricity bill based on units consumed:
+- First 100 units: Rs. 5 per unit
+- Next 100 units: Rs. 7 per unit
+- Above 200 units: Rs. 10 per unit
+- Fixed charge: Rs. 50
+
+Given units = 250, calculate total bill.
+
+**Q43. Simple Grade Calculator**
+A student has marks in 5 subjects (out of 100 each):
+- Calculate total marks
+- Calculate percentage
+- Calculate average
+- Determine grade:
+  - A: >= 90%
+  - B: >= 75%
+  - C: >= 60%
+  - D: >= 40%
+  - F: < 40%
+- Check if passed (all subjects >= 40 and average >= 50)
+
+**Q44. Age Calculator and Life Events**
+Given: birth_year = 2005, current_year = 2024
+Calculate:
+- Current age
+- Age in months
+- Age in days (approximately, 365 days/year)
+- Years until retirement (assuming 60)
+- Is person a minor? (<18)
+- Can person vote? (>=18)
+- Can person drive? (>=18)
+
+**Q45. Simple Interest vs Compound Interest**
+Compare simple and compound interest:
+```
+Principal = 50000
+Rate = 8% per annum
+Time = 3 years
+
+Simple Interest = (P * R * T) / 100
+Compound Interest = P * ((1 + R/100)^T - 1)
+```
+Calculate both and find the difference.
+
+---
+
+## SECTION E: MINI PROJECTS (5 Projects)
+
+**PROJECT 1: Personal Information Card**
+Create a program that collects and displays user information:
+- Full name
+- Age
+- Date of birth
+- Email
+- Phone number
+- Address
+- Occupation
+
+Display in a formatted card format using f-strings and string operations. Include:
+- Name in uppercase
+- Email in lowercase
+- Age category (child/teen/adult/senior)
+- Can vote status
+- Birth year calculation
+
+**PROJECT 2: Restaurant Bill Generator**
+Create a bill calculator:
+- Item 1: Name, quantity, price per unit
+- Item 2: Name, quantity, price per unit
+- Item 3: Name, quantity, price per unit
+
+Calculate:
+- Subtotal
+- Tax (5%)
+- Service charge (10%)
+- Discount if subtotal > 1000 (15%)
+- Final total
+
+Print a formatted bill with all details.
+
+**PROJECT 3: Student Report Card**
+Create a complete report card:
+- Student name, roll number, class
+- Marks in 5 subjects (Math, Science, English, Hindi, Social)
+- Calculate:
+  - Total marks
+  - Percentage
+  - Average marks
+  - Highest marks
+  - Lowest marks
+  - Number of subjects passed (marks >= 40)
+  - Overall result (Pass/Fail)
+  - Grade (A/B/C/D/F)
+
+Print a formatted report card.
+
+**PROJECT 4: Shopping Cart System**
+Create a shopping cart:
+- Product 1: name, quantity, price
+- Product 2: name, quantity, price
+- Product 3: name, quantity, price
+
+Features:
+- Calculate individual item totals
+- Calculate cart subtotal
+- Apply discount codes:
+  - "SAVE10": 10% off
+  - "SAVE20": 20% off (only if cart > 2000)
+  - "FIRST": Rs. 200 off (first purchase)
+- Add shipping charges:
+  - Free if total > 1500
+  - Rs. 100 if 500 < total <= 1500
+  - Rs. 50 if total <= 500
+- Calculate final amount
+- Print detailed invoice
+
+**PROJECT 5: Fitness Tracker**
+Create a daily fitness tracker:
+- User details: name, age, weight (kg), height (m)
+- Daily activities:
+  - Steps walked (each 1000 steps = 50 calories)
+  - Minutes of running (each minute = 10 calories)
+  - Minutes of cycling (each minute = 7 calories)
+  - Minutes of yoga (each minute = 3 calories)
+
+Calculate:
+- Total calories burned
+- BMI (weight / height²)
+- Daily calorie goal (based on BMI):
+  - Underweight: 2500 calories
+  - Normal: 2000 calories
+  - Overweight: 1800 calories
+- Goal achieved percentage
+- Steps remaining to reach 10,000 steps goal
+
+Print a fitness report with all calculations and health status.
+
+---
+
+## BONUS CHALLENGES (Extra Credit!)
+
+**CHALLENGE 1:** Create a time converter that converts seconds into days, hours, minutes, and seconds. For example: 100000 seconds = 1 day, 3 hours, 46 minutes, 40 seconds.
+
+**CHALLENGE 2:** Create a number pattern printer that takes a 4-digit number and prints each digit on a separate line, along with its place value (ones, tens, hundreds, thousands).
+
+**CHALLENGE 3:** Create a simple encryption program that takes a number, multiplies by 7, adds 13, and then uses modulus 100 to create an "encrypted" number. Then create a decryption formula.
+
+**CHALLENGE 4:** Create a loan EMI calculator:
+```
+Loan amount = 500000
+Interest rate = 10% per year
+Time = 5 years
+EMI = [P * R * (1+R)^N] / [(1+R)^N - 1]
+Where R = monthly interest rate, N = number of months
+CHALLENGE 5: Create a temperature converter that converts between Celsius, Fahrenheit, and Kelvin. Include formulas for all conversions.
