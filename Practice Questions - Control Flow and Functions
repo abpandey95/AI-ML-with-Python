@@ -1,0 +1,370 @@
+📘 BASIC LEVEL (Questions 1-15)
+If-Else Questions
+
+Write a program to check if a number is positive, negative, or zero.
+Check if a person is eligible to vote (age >= 18).
+Write a program to find the maximum of two numbers.
+Check if a number is even or odd.
+Write a program to check if a year is a leap year or not.
+
+Loop Questions
+
+Print numbers from 1 to 10 using a for loop.
+Print the first 10 even numbers using a while loop.
+Calculate the sum of numbers from 1 to 100.
+Print the multiplication table of 5.
+Print all elements in a list: ['apple', 'banana', 'cherry', 'date']
+
+Function Questions
+
+Write a function to add two numbers and return the result.
+Create a function that takes a name as input and prints "Hello, [name]!".
+Write a function to calculate the area of a rectangle (length × width).
+Create a function to convert Celsius to Fahrenheit. Formula: F = (C × 9/5) + 32
+Write a function that returns the square of a number.
+
+
+💪 INTERMEDIATE LEVEL (Questions 16-30)
+If-Else Questions
+
+Write a program to assign grades based on marks:
+
+90-100: A+
+80-89: A
+70-79: B
+60-69: C
+Below 60: F
+
+
+Create a simple calculator that performs +, -, *, / based on user choice.
+Check if a given character is a vowel or consonant.
+Write a program to check if a triangle is valid (sum of any two sides > third side).
+Determine the largest of three numbers.
+
+Loop Questions
+
+Print the Fibonacci series up to n terms (0, 1, 1, 2, 3, 5, 8...).
+Count the number of digits in a number using a while loop.
+Reverse a number using a loop (e.g., 1234 → 4321).
+Print all prime numbers between 1 and 50.
+Find the factorial of a number using a for loop.
+Create a pattern:
+
+    *
+    **
+    ***
+    ****
+    *****
+Function Questions
+
+Write a function to check if a number is prime.
+Create a function that returns the factorial of a number.
+Write a function to find the sum of all elements in a list.
+Create a function that counts vowels in a given string.
+
+
+🔥 ADVANCED LEVEL (Questions 31-40)
+
+Write a function to check if a string is a palindrome (reads same forwards and backwards).
+Create a function that returns the nth Fibonacci number using recursion.
+Write a program to find all Armstrong numbers between 1 and 1000.
+(Armstrong number: 153 = 1³ + 5³ + 3³)
+Create a function to generate all prime numbers up to n using the Sieve of Eratosthenes.
+Write a function to find the GCD (Greatest Common Divisor) of two numbers.
+Create a function that removes duplicates from a list without using set().
+Write a function to check if a number is a perfect number.
+(Perfect number: sum of divisors equals the number, e.g., 6 = 1+2+3)
+Create a nested loop to print a multiplication table from 1 to 10.
+Write a function that converts a decimal number to binary.
+Create a function to find the second largest number in a list.
+
+
+🎭 SCENARIO-BASED QUESTIONS (Questions 41-50)
+
+ATM Withdrawal System
+
+Write a program that checks if withdrawal amount is valid
+Balance must be sufficient
+Withdrawal must be in multiples of 100
+Minimum balance of 500 must remain
+
+
+Student Report Card Generator
+
+Input marks for 5 subjects
+Calculate total and percentage
+Assign grade
+Display "Pass" or "Fail" (pass if all subjects >= 40 and percentage >= 50)
+
+
+Movie Ticket Pricing
+
+Regular ticket: ₹200
+Child (age < 12): ₹100
+Senior (age >= 60): ₹150
+Weekend surcharge: ₹50
+Calculate total price based on age and day
+
+
+Electricity Bill Calculator
+
+First 100 units: ₹5/unit
+Next 100 units: ₹7/unit
+Above 200 units: ₹10/unit
+Calculate total bill amount
+
+
+Login System
+
+Allow 3 attempts to enter correct password
+Lock account after 3 failed attempts
+Display appropriate messages
+
+
+Shopping Discount Calculator
+
+Purchase amount < ₹1000: No discount
+₹1000 - ₹5000: 10% discount
+₹5000 - ₹10000: 20% discount
+Above ₹10000: 30% discount
+Calculate final amount after discount
+
+
+BMI Calculator
+
+Input: weight (kg) and height (m)
+Calculate BMI = weight / (height²)
+Categories:
+
+Underweight: BMI < 18.5
+Normal: 18.5-24.9
+Overweight: 25-29.9
+Obese: BMI >= 30
+
+
+
+
+Tax Calculator
+
+Income up to ₹2.5 lakh: No tax
+₹2.5-5 lakh: 5%
+₹5-10 lakh: 20%
+Above ₹10 lakh: 30%
+Calculate tax amount
+
+
+Password Strength Checker
+
+Check if password has:
+
+At least 8 characters
+At least one uppercase letter
+At least one lowercase letter
+At least one digit
+At least one special character
+
+
+Return "Weak", "Medium", or "Strong"
+
+
+Number Guessing Game
+
+Computer generates a random number (1-100)
+User has 7 attempts to guess
+Provide hints: "Too high" or "Too low"
+Display win/lose message
+
+
+
+
+🚀 PROJECT-BASED QUESTIONS (Questions 51-60)
+51. Simple Banking System
+Create a menu-driven program with functions:
+
+Check balance
+Deposit money
+Withdraw money
+Display transaction history
+Exit
+
+Requirements:
+
+Use functions for each operation
+Validate all inputs
+Maintain minimum balance
+
+
+52. Student Management System
+Create a system to:
+
+Add student records (name, roll number, marks in 3 subjects)
+Display all students
+Search student by roll number
+Calculate and display topper
+Calculate class average
+
+Requirements:
+
+Use lists to store multiple students
+Use functions for each operation
+Use loops for menu
+
+
+53. Temperature Converter
+Build a complete temperature conversion tool:
+
+Celsius to Fahrenheit
+Fahrenheit to Celsius
+Celsius to Kelvin
+Kelvin to Celsius
+Menu-driven interface
+
+Requirements:
+
+Separate function for each conversion
+Input validation
+Loop until user chooses to exit
+
+
+54. Prime Number Toolkit
+Create a toolkit with functions:
+
+Check if a number is prime
+Generate n prime numbers
+Find prime numbers in a range
+Check if two numbers are twin primes
+Find prime factors of a number
+
+
+55. Pattern Generator
+Create a program that generates different patterns based on user choice:
+Pattern 1:        Pattern 2:        Pattern 3:
+*                 1                 1
+**                12                22
+***               123               333
+****              1234              4444
+*****             12345             55555
+Requirements:
+
+Use nested loops
+Menu to select pattern type
+User inputs number of rows
+
+
+56. Simple Calculator with History
+Build a calculator that:
+
+Performs basic operations (+, -, *, /, %, **)
+Stores calculation history
+Displays history
+Clears history
+Continues calculations using previous result
+
+Requirements:
+
+Use functions for operations
+Use list for history
+Error handling for division by zero
+
+
+57. Word Counter and Analyzer
+Create a program that analyzes text:
+
+Count total words
+Count total characters (with and without spaces)
+Find longest word
+Count vowels and consonants
+Count frequency of each word
+
+Requirements:
+
+Input multi-line text
+Use functions for each analysis
+Display results in formatted manner
+
+
+58. Number System Converter
+Build a converter between:
+
+Decimal to Binary
+Binary to Decimal
+Decimal to Octal
+Octal to Decimal
+Decimal to Hexadecimal
+Hexadecimal to Decimal
+
+Requirements:
+
+Menu-driven interface
+Separate functions for each conversion
+Input validation
+
+
+59. Simple Quiz Game
+Create an interactive quiz:
+
+Store 10 questions with multiple choices
+Keep score
+Display correct answer if wrong
+Show final score and percentage
+Option to retry
+
+Requirements:
+
+Use lists for questions and answers
+Use loops for quiz flow
+Use functions for score calculation
+
+
+60. Loan EMI Calculator
+Calculate monthly EMI (Equated Monthly Installment):
+
+Input: Loan amount, interest rate, tenure (months)
+Formula: EMI = [P × R × (1+R)^N] / [(1+R)^N-1]
+
+P = Principal loan amount
+R = Monthly interest rate
+N = Tenure in months
+
+
+Display:
+
+Monthly EMI
+Total amount payable
+Total interest payable
+Amortization schedule (month-wise breakdown)
+
+
+
+Requirements:
+
+Use functions for calculations
+Format currency output
+Create payment schedule table
+
+
+📊 BONUS CHALLENGE QUESTIONS (61-65)
+
+Recursive String Reversal
+Write a recursive function to reverse a string without using slicing.
+Pascal's Triangle
+Generate Pascal's triangle up to n rows using nested loops and functions.
+Anagram Checker
+Write a function to check if two strings are anagrams of each other.
+Matrix Addition
+Create functions to:
+
+Input a matrix
+Display a matrix
+Add two matrices
+
+
+Menu-Driven List Operations
+Create a program with operations:
+
+Insert element
+Delete element
+Search element
+Sort list
+Reverse list
+Display list
