@@ -1,0 +1,461 @@
+SECTION A: Classes and Objects (Basic)
+Questions 1-10: Simple Level
+
+Basic Class Creation
+Create a class Car with attributes: brand, model, year. Create 3 objects and display their information.
+
+
+Calculator Class
+Create a Calculator class with methods for add, subtract, multiply, and divide. Test all methods.
+
+
+Book Class
+Create a Book class with attributes: title, author, price, pages. Add a method to display book info and another to check if it's expensive (price > $50).
+
+
+Rectangle Class
+Create a Rectangle class with length and width. Add methods to calculate area and perimeter.
+
+
+Employee Class
+Create an Employee class with name, id, and salary. Add a method to give a 10% raise.
+
+
+Circle Class
+Create a Circle class with radius. Add methods to calculate area and circumference (π = 3.14159).
+
+
+Temperature Converter
+Create a class Temperature that converts Celsius to Fahrenheit and vice versa.
+
+
+Counter Class
+Create a Counter class that can increment, decrement, and reset a counter value.
+
+
+Time Class
+Create a Time class with hours, minutes, seconds. Add a method to convert to total seconds.
+
+
+Person Class
+Create a Person class with name, age, and city. Add a method to check if person is adult (age >= 18).
+
+
+
+Questions 11-20: Medium Level
+
+Library Book Manager
+Create a Library class that maintains a list of books. Add methods to add_book, remove_book, and display_all_books.
+
+
+Shopping Cart
+Create a ShoppingCart class that can add items, remove items, calculate total price, and apply discount.
+
+
+Bank Account with Transaction History
+Extend the BankAccount class to maintain transaction history (deposits and withdrawals).
+
+
+Student Grade Manager
+Create a Student class that stores multiple subject grades and calculates GPA, highest grade, and lowest grade.
+
+
+Hotel Room Booking
+Create a HotelRoom class with room_number, type, price, and booking status. Add methods to book and checkout.
+
+
+Inventory System
+Create an Item class for inventory with name, quantity, price. Add methods to update stock and calculate total value.
+
+
+ATM Machine
+Create an ATM class that handles multiple operations: check balance, withdraw, deposit, mini statement.
+
+
+Contact Book
+Create a Contact class with name, phone, email. Create a ContactBook class to manage multiple contacts.
+
+
+Quiz System
+Create a Question class and Quiz class that stores questions, takes answers, and calculates score.
+
+
+Parking Lot
+Create a ParkingLot class that manages parking spots, tracks available spaces, and calculates parking fees.
+
+
+
+
+SECTION B: Inheritance and Polymorphism
+Questions 21-30: Medium to Hard
+
+Vehicle Hierarchy
+Create a base class Vehicle and inherit Car, Bike, and Truck. Each should have specific attributes and methods.
+
+
+Shape Calculator
+Create a base class Shape with method area(). Create child classes Square, Circle, Triangle with their own area calculations.
+
+
+Employee Management
+Create base class Employee and inherit Manager, Developer, Intern with different salary calculations and benefits.
+
+
+Animal Sound System
+Create Animal base class and inherit Dog, Cat, Cow, Bird. Implement polymorphism for make_sound() method.
+
+
+Payment System
+Create Payment base class and inherit CreditCard, DebitCard, UPI, Cash with different processing methods.
+
+
+Media Player
+Create Media base class and inherit Audio, Video, Image with different play/display methods.
+
+
+Bank Account Types
+Create Account base class and inherit SavingsAccount, CurrentAccount, FixedDeposit with different interest calculations.
+
+
+E-commerce Product System
+Create Product base class and inherit Electronics, Clothing, Food with different discount and warranty policies.
+
+
+School Management
+Create Person base class and inherit Student, Teacher, Staff with different attributes and methods.
+
+
+Sports Team
+Create Player base class and inherit Batsman, Bowler, AllRounder with different statistics tracking.
+
+
+SECTION C: File Handling (Basic)
+Questions 31-40: Simple to Medium
+
+Text File Creator
+Write a program to create a text file and write 5 lines of your choice. Then read and display the content.
+
+
+Line Counter
+Write a program to count the number of lines in a text file.
+
+
+Word Counter
+Write a program to count total words in a text file.
+
+
+Character Counter
+Count total characters, vowels, and consonants in a text file.
+
+
+File Copy
+Write a program to copy content from one file to another.
+
+
+File Append
+Write a program that asks user for input and appends it to an existing file.
+
+
+Search in File
+Write a program to search for a specific word in a file and display line numbers where it appears.
+
+
+Replace Text
+Write a program to replace all occurrences of a word in a file with another word.
+
+
+File Merge
+Write a program to merge contents of two files into a third file.
+
+
+Reverse File Content
+Read a file and write its content in reverse order to a new file.
+
+
+
+
+SECTION D: Exception Handling
+Questions 41-50: Simple to Medium
+
+Safe Division
+Write a function that performs division and handles ZeroDivisionError and TypeError.
+
+
+List Access
+Create a program that accesses list elements and handles IndexError gracefully.
+
+
+File Reader with Exception
+Write a program to read a file and handle FileNotFoundError and PermissionError.
+
+
+Integer Input Validator
+Write a program that keeps asking for an integer until valid input is provided.
+
+
+Dictionary Key Access
+Create a dictionary and access keys with proper KeyError handling.
+
+
+Multiple Exception Handler
+Write a program that can raise and handle at least 4 different types of exceptions.
+
+
+Age Validator
+Create a function that validates age (must be between 0-120) with custom exception.
+
+
+File Write with Exception
+Write a program that handles exceptions while writing to a file (disk full, permission denied).
+
+
+Calculator with Exceptions
+Create a calculator that handles all possible exceptions (division by zero, invalid input, etc.).
+
+
+Custom Exception for Grade
+Create a custom exception InvalidGradeError for grade validation (0-100).
+
+
+
+
+SECTION E: Combined OOP + File Handling
+Questions 51-60: Medium to Hard
+
+Student Records System
+Create a Student class and save/load student data from a file. Include add, delete, search, and update operations.
+
+
+Employee Payroll System
+Create Employee class with file storage. Calculate salary, generate payslips, and save to files.
+
+
+Library Management System
+Create Book and Member classes. Store data in files. Implement issue, return, and fine calculation.
+
+
+Expense Tracker
+Create an Expense class that logs all expenses to a file. Generate monthly reports and category-wise analysis.
+
+
+Todo List Application
+Create Task class with priority and deadline. Save tasks to file. Mark complete, delete, and filter tasks.
+
+
+Contact Management System
+Create Contact class with CRUD operations. Store in file. Add search by name, phone, or email.
+
+
+Inventory Management
+Create Product class. Store inventory in file. Track stock levels, low stock alerts, and reorder.
+
+
+Banking System
+Create Account class with transaction logging to file. Generate account statements and transaction history.
+
+
+Hospital Management
+Create Patient and Appointment classes. Store records in files. Book appointments, view history.
+
+
+Grade Book System
+Create classes for Student, Course, and Grade. Store in files. Calculate GPA, generate transcripts.
+
+
+
+
+SECTION F: Advanced Scenarios and Projects
+Questions 61-75: Hard Level Projects
+
+Restaurant Order Management
+Create Menu, Order, Customer classes. Save orders to file. Calculate bills, apply discounts, generate daily sales report.
+
+
+Hotel Reservation System
+Create Room, Booking, Guest classes. Persist data in files. Handle bookings, cancellations, room availability, billing.
+
+
+Online Quiz Application
+Create Question, Quiz, User classes. Store questions in file. Track user scores, generate leaderboard, save results.
+
+
+E-commerce Shopping System
+Create Product, Customer, Order, Cart classes. File storage for all data. Handle orders, payments, order history.
+
+
+Fitness Tracker
+Create User, Workout, Diet classes. Log daily activities to files. Generate weekly reports, calorie tracking.
+
+
+Movie Ticket Booking
+Create Movie, Theatre, Booking classes. Store show times, bookings in files. Handle seat selection, cancellation.
+
+
+School Attendance System
+Create Student, Class, Attendance classes. Mark attendance in files. Generate attendance reports, defaulter lists.
+
+
+Vehicle Rental System
+Create Vehicle, Customer, Rental classes. Store rental records. Calculate rental charges, late fees, availability.
+
+
+Blood Bank Management
+Create Donor, Blood, Request classes. Maintain inventory in files. Track donations, requests, expiry dates.
+
+
+Event Management System
+Create Event, Participant, Venue classes. Store event details in files. Handle registrations, send confirmations.
+
+
+Library Fine Calculator
+Extend library system with fine calculation based on days overdue. Generate fine reports, payment tracking.
+
+
+Electricity Billing System
+Create Customer, Meter, Bill classes. Calculate bills based on units consumed. Save billing history to files.
+
+
+Exam Management System
+Create Student, Exam, Result classes. Store exam schedules, marks in files. Generate report cards, merit lists.
+
+
+Pharmacy Management
+Create Medicine, Sale, Inventory classes. Track medicine stock, expiry dates, sales. Generate reports.
+
+
+Social Media Post Manager
+Create User, Post, Comment classes. Store posts in files. Implement like, comment, share features. Generate user activity reports.
+
+
+
+
+SECTION G: Error Handling Scenarios
+Questions 76-85: Exception-Focused
+
+File Processing Pipeline
+Create a program that reads data from one file, processes it, writes to another. Handle all possible file-related exceptions.
+
+
+Network Data Saver (Simulated)
+Simulate downloading data and saving to file. Handle connection errors, file errors, data format errors.
+
+
+CSV Data Processor
+Read CSV file with student data. Handle missing fields, invalid data types, calculate statistics with exception handling.
+
+
+Configuration File Reader
+Read configuration from file. Handle missing file, invalid format, missing keys with appropriate defaults.
+
+
+Log File Analyzer
+Read log files and extract errors. Handle large files, corrupted data, missing timestamps.
+
+
+Backup System
+Create a backup system that copies files. Handle permission errors, disk space issues, missing source files.
+
+
+Data Validator
+Read data file and validate each entry. Create error log for invalid entries. Handle all exceptions gracefully.
+
+
+Multi-file Report Generator
+Read data from multiple files and generate a report. Handle missing files, inconsistent formats.
+
+
+Safe File Deletion
+Create a program to delete files safely with confirmation. Handle FileNotFoundError, PermissionError.
+
+
+JSON Data Handler
+Read and write JSON files with student records. Handle JSON decode errors, file errors.
+
+
+
+
+SECTION H: Real-World Applications
+Questions 86-100: Project-Based
+
+Personal Budget Manager
+Track income and expenses by category. Save to files. Generate monthly budgets, savings reports, expense trends.
+
+
+Appointment Scheduler
+Create a scheduling system for appointments. Handle time conflicts, reminders, cancellations. Save all data to files.
+
+
+Recipe Manager
+Store recipes with ingredients and steps. Search by ingredients, category. Save/load from files. Calculate nutritional info.
+
+
+Gym Membership System
+Manage members, membership plans, attendance. Calculate fees, track renewals. Store all data in files.
+
+
+Course Registration System
+Create system for students to register for courses. Handle prerequisites, capacity limits, conflicts. Save to files.
+
+
+Parking Management System
+Track vehicle entry/exit, calculate parking fees based on time. Handle different vehicle types. Generate daily revenue reports.
+
+
+Hospital Patient Management
+Register patients, assign doctors, track appointments, maintain medical history. Store everything in files with proper exception handling.
+
+
+Library Fine Management
+Track borrowed books, calculate fines for overdue books. Generate fine reports, payment tracking. Send reminders.
+
+
+Employee Leave Management
+Track employee leaves (sick, casual, earned). Calculate leave balance, approve/reject leaves. Store records in files.
+
+
+Bus Reservation System
+Manage bus routes, bookings, seat availability. Calculate fares, handle cancellations. Store booking data in files.
+
+
+Online Food Ordering
+Create menu, take orders, calculate bills with taxes and delivery charges. Store order history. Generate restaurant reports.
+
+
+Warehouse Management
+Track inventory, incoming/outgoing stock, reorder levels. Generate stock reports, alerts for low stock.
+
+
+Voting System
+Create a secure voting system with voter registration, vote casting, result calculation. Store data securely in files.
+
+
+Music Library Manager
+Store songs with metadata (artist, album, genre, duration). Create playlists, search songs, generate statistics.
+
+
+Travel Booking System
+- Book flights/hotels/packages. Handle passenger details, pricing, discounts, cancellations. Generate booking confirmations and invoices.
+
+
+BONUS QUESTIONS (101-110): Advanced Challenges
+
+Multi-User Chat Logger
+- Create a chat system that logs conversations to files. Handle multiple users, timestamps, message search.
+Version Control System (Basic)
+- Create a simple version control that saves file versions. Track changes, revert to previous versions.
+Data Encryption System
+- Read files, encrypt content, save encrypted version. Implement decryption. Handle various file types.
+Report Card Generator
+- Read student marks from file, calculate grades, generate formatted report cards as text files.
+Attendance with Biometric Simulation
+- Simulate biometric attendance system. Store attendance with timestamps. Generate monthly reports, late coming analysis.
+E-Wallet System
+- Create digital wallet with add money, spend, transaction history. Store encrypted data in files.
+Complaint Management System
+- Register complaints, assign to departments, track status, resolution. Store all data with timestamps.
+Certificate Generator
+- Read participant names from file, generate certificates (text-based), save individually named files.
+Auction System
+- Create item listings, bid tracking, winner declaration. Store auction history, generate sale reports.
+Weather Data Logger
+- Simulate weather data collection (temp, humidity, pressure). Store daily, generate monthly averages, trends.
